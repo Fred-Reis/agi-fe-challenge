@@ -31,12 +31,6 @@
   <a href="#-sobre-esse-projeto">
     Sobre o projeto
   </a>&nbsp;&nbsp;
-  <a href="#-backend">
-    Backend
-  </a>&nbsp;&nbsp;
-  <a href="#-frontend">
-    Frontend
-  </a>&nbsp;&nbsp;
   <a href="#author-frederico-reis">
     Author
   </a>
@@ -48,7 +42,7 @@
 A proposta desse projeto era construir uma aplicação fullstack que permitisse ao usuário criar um usuário e enviar um email de confirmação para o usuário.
 
 Caso queira acessar o repositório com o projeto frontend acesse o link a seguir:  
- [🖥️ Repositório Frontend](https://github.com/Fred-Reis/agi-fe-challenge/?tab=readme)
+ [📑 Repositório Backend](https://github.com/Fred-Reis/agi-be-challenge/?tab=readme)
 
 <br/>
 
