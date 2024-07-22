@@ -31,6 +31,24 @@
   <a href="#-sobre-esse-projeto">
     Sobre o projeto
   </a>&nbsp;&nbsp;
+  <a href="#-frontend">
+    Frontend
+  </a>&nbsp;&nbsp;
+  <a href="#-funcionalidades">
+    Funcionalidades
+  </a>&nbsp;&nbsp;
+  <a href="#-requisitos">
+    Requisitos
+  </a>&nbsp;&nbsp;
+  <a href="#-executando-o-projeto">
+    Executando o projeto
+  </a>&nbsp;&nbsp;
+  <a href="#-tecnologias-e-ferramentas">
+    Tecnologias e Ferramentas
+  </a>&nbsp;&nbsp;
+  <a href="#-roadmap">
+    Roadmap
+  </a>&nbsp;&nbsp;
   <a href="#author-frederico-reis">
     Author
   </a>
