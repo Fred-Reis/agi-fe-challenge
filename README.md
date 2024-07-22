@@ -53,7 +53,9 @@ Caso queira acessar o repositório com o projeto frontend acesse o link a seguir
 <br/>
 
 <!-- 😃 Agora rode o projeto e ... -->
-**SEJA FELIZ!**.
+<h4 align="center">
+  SEJA FELIZ!
+</h4>
 
 <h4 align="center">
   "Stay hungry stay foolish!"
@@ -76,6 +78,7 @@ Author: <a alt="Fred-Reis" href="https://github.com/Fred-Reis">Frederico Reis</a
 
 </p>
 
-Feito com ♥️
-
+<p align="center">
+  Feito com ♥️
+</p>
 
