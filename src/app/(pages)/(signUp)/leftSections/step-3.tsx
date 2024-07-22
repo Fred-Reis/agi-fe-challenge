@@ -55,12 +55,12 @@ export const Step3 = ({
   const isDisabled = !role || !departments.length;
 
   return (
-    <section className=" mt-12 h-full flex-col flex">
+    <section className=" mt-12 md:mt-8 h-full flex-col flex">
       <h1 className="max-w-2xl text-5xl font-marriweather text-font_color-strong leading-[3.5rem] font-extrabold">
         Sobre o seu negócio
       </h1>
 
-      <section className="w-[707px] mt-12">
+      <section className="w-[707px] md:w-[690px] mt-12 md:mt-8">
         {roleError && <p className="text-red-500 text-sm">{roleError}</p>}
 
         <p className="self-start font-bold text-lg mb-5">Qual é o seu cargo?</p>
@@ -79,7 +79,7 @@ export const Step3 = ({
         </ul>
       </section>
 
-      <section className="w-[707px] mt-12">
+      <section className="w-[707px] md:w-[690px] mt-12 md:mt-8">
         {departmentError && (
           <p className="text-red-500 text-sm">{departmentError}</p>
         )}
@@ -113,7 +113,7 @@ export const Step3 = ({
         </ul>
       </section>
 
-      <footer className="mt-auto mb-12 w-full">
+      <footer className="mt-auto mb-8 2xl:mb-12 w-full">
         <StepProgressBar
           handlePreviousStep={handlePreviousStep}
           handleNextStep={handleSubmit}

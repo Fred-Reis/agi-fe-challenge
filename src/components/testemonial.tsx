@@ -27,7 +27,7 @@ export const Testemonial = ({
   <section className="mt-[116px]">
     <div className="flex gap-6">
       <Image src={quote} alt="quote" className="h-12" />
-      <div className="text-xl text-font_color-sub_title w-[373px]">
+      <div className="text-xl text-font_color-sub_title 2xl:w-[373px]">
         {message}
       </div>
     </div>

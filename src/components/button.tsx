@@ -27,7 +27,7 @@ export const Button = ({
       onClick={onClick}
       className={`w-full h-10 p-4 rounded-xl border-2 flex items-center justify-center text-base text-[#fff] font-semibold
         ${variant === "smallIcon" && "border-slate-200 text-font_color-default gap-[10px]"} 
-        ${variant === "icon" && "border-slate-200 text-font_color-default"} 
+        ${variant === "icon" && "border-slate-200 text-font_color-default justify-between"} 
         ${variant === "outlined" && "border-primary text-primary"} 
         ${variant === "filled" && "bg-primary border-primary"} 
         ${disabled && "opacity-50"}
@@ -38,7 +38,7 @@ export const Button = ({
       {icon && icon}
       {smallIcon && smallIcon}
       <p
-        className={`${icon ? "fixed" : "flex items-center justify-center gap-[10px]"}`}
+        className={`${icon ? "flex-grow-1" : "flex items-center justify-center gap-[10px]"}`}
       >
         {text}
         {arrow && (
@@ -47,7 +47,7 @@ export const Button = ({
           </span>
         )}
       </p>
-      {icon && <div className="flex-1"></div>}
+      {icon && <div className="w-4"></div>}
     </button>
   );
 };

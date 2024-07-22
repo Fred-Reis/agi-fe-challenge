@@ -93,7 +93,7 @@ export const Step0 = ({ updateState, handleNextStep }: Step1Props) => {
 
   return (
     <>
-      <section className="flex flex-col items-center mt-24 w-full max-w-[445px] rounded-2xl bg-[#fff] shadow-[0_-6px_8px_rgba(249,115,22,0.1)] p-9">
+      <section className="flex flex-col items-center mt-auto 2xl:mt-24 w-full max-w-[445px] rounded-2xl bg-[#fff] shadow-[0_-6px_8px_rgba(249,115,22,0.1)] p-9">
         <div className="flex flex-col w-full">
           <p className="self-start font-bold mb-[10px]">
             Entre com seu email profissional

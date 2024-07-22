@@ -129,7 +129,7 @@ export const Step2 = ({
         </ul>
       </section>
 
-      <footer className="mt-auto mb-12 w-full">
+      <footer className="mt-auto mb-8 2xl:mb-12 w-full">
         <StepProgressBar
           handleNextStep={handleSubmit(handleSignIn)}
           handlePreviousStep={handlePreviousStep}

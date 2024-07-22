@@ -79,12 +79,12 @@ export const Step1 = ({ handleNextStep, updateState, step }: Step1Props) => {
   const isDisabled = !isDirty || !isValid || !chipsData || !phone;
 
   return (
-    <section className=" mt-12 h-full flex-col flex">
+    <section className=" mt-12 md:mt-10 h-full flex-col flex">
       <h1 className="max-w-2xl text-5xl font-marriweather text-font_color-strong leading-[3.5rem] font-extrabold">
         Conte sobre você
       </h1>
 
-      <section className="w-[437px] mt-12">
+      <section className="w-[437px] mt-12 md:mt-10">
         <p className="self-start font-bold text-lg mb-[10px]">
           Qual seu nome completo?
         </p>
@@ -136,7 +136,7 @@ export const Step1 = ({ handleNextStep, updateState, step }: Step1Props) => {
         />
       </section>
 
-      <section className="w-[707px] mt-12">
+      <section className="w-[707px] md:w-[690px] mt-12 md:mt-10">
         {chipsError && <p className="text-red-500 text-sm">{chipsError}</p>}
 
         <p className="self-start font-bold text-lg mb-5">
@@ -159,7 +159,7 @@ export const Step1 = ({ handleNextStep, updateState, step }: Step1Props) => {
         </ul>
       </section>
 
-      <footer className="mt-auto mb-12 w-full">
+      <footer className="mt-auto mb-8 2xl:mb-12 w-full">
         <StepProgressBar
           handleNextStep={handleSubmit(handleSignIn)}
           disabled={isDisabled}

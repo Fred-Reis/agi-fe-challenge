@@ -46,12 +46,12 @@ export const Step4 = ({
   }
 
   return (
-    <section className=" mt-12 h-full flex-col flex">
+    <section className=" mt-12 md:mt-7 h-full flex-col flex">
       <h1 className="max-w-2xl text-[40px] font-marriweather text-font_color-strong leading-10 font-extrabold">
         Personalize a sua plataforma
       </h1>
 
-      <section className="w-[707px] mt-12">
+      <section className="w-[707px] mt-12 md:mt-7">
         <p className="self-start font-bold text-lg mb-5">
           Qual nome você deseja para o endereço URL da plataforma?
         </p>
@@ -63,7 +63,7 @@ export const Step4 = ({
         </p>
       </section>
 
-      <section className="w-[700px] mt-9">
+      <section className="w-[700px] mt-9 md:mt-2">
         <p className="self-start font-bold text-lg mb-2">
           Por último, escolha a cor da plataforma
         </p>
@@ -91,12 +91,12 @@ export const Step4 = ({
         </ul>
       </section>
 
-      <p className="font-semibold mt-12 text-primary flex items-center gap-2">
+      <p className="font-semibold mt-12 md:mt-6 text-primary flex items-center gap-2">
         Personalize a cor
         <Picker />
       </p>
 
-      <footer className="mt-auto mb-12 w-full">
+      <footer className="mt-auto mb-8 2xl:mb-12 w-full">
         <StepProgressBar
           handlePreviousStep={handlePreviousStep}
           handleNextStep={handleSubmit}
