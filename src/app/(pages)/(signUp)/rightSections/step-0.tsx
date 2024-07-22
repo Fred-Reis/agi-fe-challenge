@@ -145,14 +145,14 @@ export const Step0 = ({ updateState, handleNextStep }: Step1Props) => {
 
           <div className="flex flex-col gap-3">
             <Button
-              onClick={() => console.log("clicked")}
+              onClick={() => alert("O login social ainda está em construção")}
               icon={<Google />}
               variant="icon"
               text="Google"
             />
 
             <Button
-              onClick={() => console.log("clicked")}
+              onClick={() => alert("O login social ainda está em construção")}
               icon={<Microsoft />}
               text="Microsoft"
               variant="icon"

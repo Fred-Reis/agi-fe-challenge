@@ -90,8 +90,13 @@ Nesse cadastro existem poucos requisitos para permitir o cadastro do usuário:
 ## 👀 Demo
 
 <h1 align="center">
-  <img src="src/assets/dashboard.jpg"/>
+  <video controls autoplay >
+    <source src="src/assets/demo.mp4" type="video/mp4">
+  </video>
 </h1>
+<!-- <h1 align="center">
+  <img src="src/assets/demo.gif"/>
+</h1> -->
 
 <br/>
 

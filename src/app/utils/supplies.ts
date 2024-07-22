@@ -268,5 +268,5 @@ export const initialState: InitialStateProps = {
   department: null,
   url: null,
   color: "",
-  step: 1,
+  step: 0,
 };

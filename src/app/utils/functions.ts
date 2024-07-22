@@ -34,13 +34,3 @@ function hexToRGB(hex: string, alpha: string) {
 
   return `rgb(${r}, ${g}, ${b})`;
 }
-
-export function getGradientByColor(primary: string, secondary: string) {
-  console.log(primary, secondary);
-
-  const gradient = `bg-gradient-to-br from-[#FDBA74] via-[#FEF3C7] to-[#FFF7ED]`;
-  // return "bg-gradient-to-tr from-[#FDBA74] via-[#FEF3C7] to-[#FFF7ED]";
-
-  return gradient;
-  // return `bg-gradient-to-br from-[${primary}] via-[#FEF3C7] to-[#FFF7ED]`;
-}

@@ -56,16 +56,10 @@ export default function SignUp() {
     setUrl(e.target.value);
   }, []);
 
-  useEffect(() => {
-    console.log(state);
-  }, [state]);
-
   const custtomGradient =
     state.step === 4
       ? handleGetColorObj(color).gradient
       : getGradientByStep(state.step);
-
-  console.log(custtomGradient);
 
   return (
     <main className="flex min-h-screen  bg-white ">
