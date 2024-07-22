@@ -52,7 +52,7 @@ export default function SignUp() {
   }, []);
 
   const handleGeUrl = useCallback((e: any) => {
-    dispatch({ type: "url", payload: e.target.value });
+    dispatch({ type: "url", payload: `https://${e.target.value}.agidesk.com` });
     setUrl(e.target.value);
   }, []);
 
