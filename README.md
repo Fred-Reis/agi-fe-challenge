@@ -186,6 +186,8 @@ Algumas das funcionalidades que devem ser implementadas em breve
 - [ ] Permitir que o usuário insira sua cor personalizada para customizar a plataforma
 - [ ] Implementar login social com Gmail e Outlook.
 - [ ] Hospedar os assets em um servidor CDN para reduzir o tamanho do bundle da aplicação
+- [ ] Implementar validações e exibição de erros
+- [ ] Fazer o deployda aplicação
 
 <hr/>
 <br/>
