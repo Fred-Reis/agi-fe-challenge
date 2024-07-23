@@ -97,6 +97,8 @@ Nesse cadastro existem poucos requisitos para permitir o cadastro do usuário:
 
 # 🏁 Executando o projeto
 
+> **🚨 Antes de executar o projeto é necessário que o [backend]((https://github.com/Fred-Reis/agi-be-challenge/?tab=readme)) do projeto esteja rodando!! 📣**
+
 1 - Para rodar pela primeira vez o seu projeto será necessário a criação de uma pasta.
 
 ```bash
