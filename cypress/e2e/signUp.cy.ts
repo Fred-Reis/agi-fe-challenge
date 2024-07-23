@@ -3,7 +3,7 @@ describe("signUp flow", () => {
     cy.visit("/");
     cy.viewport(1440, 900);
 
-    cy.get('input[name="email"]').type("johndo3@example.com");
+    cy.get('input[name="email"]').type("johndo@example.com");
     cy.get('input[name="password"]').type("123456");
     cy.get("button").contains("Continue").click();
 
@@ -16,7 +16,7 @@ describe("signUp flow", () => {
 
     cy.contains("Sobre o seu negócio").should("exist");
 
-    cy.get('input[name="companyName"]').type("my company");
+    cy.get('input[name="companyName"]').type("john doe company");
     cy.get("button").contains("Escolha o segmento").click();
     cy.get("li").contains("Tecnologia & Software").click();
     cy.get("div").contains("201 a 500").click();
@@ -30,7 +30,7 @@ describe("signUp flow", () => {
 
     cy.contains("Personalize a sua plataforma").should("exist");
 
-    cy.get('input[name="url"]').type("mycompany");
+    cy.get('input[name="url"]').type("johncompany");
     cy.get("div").contains("Laranja").click();
     cy.get("button").contains("Continuar").click();
 
