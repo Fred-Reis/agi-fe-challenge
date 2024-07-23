@@ -1,17 +1,13 @@
 "use client";
 
-import { useCallback, useReducer, useEffect, useState } from "react";
+import { useCallback, useReducer, useState } from "react";
 
 import Image from "next/image";
 
 import { RightSide } from "./rightSections";
 import { LeftSide } from "./leftSections";
 
-import {
-  getGradientByColor,
-  getGradientByStep,
-  handleGetColorObj,
-} from "@/app/utils/functions";
+import { getGradientByStep, handleGetColorObj } from "@/app/utils/functions";
 import { COLORS, initialState } from "@/app/utils/supplies";
 
 import logo from "@/assets/agidesk-logo.svg";
