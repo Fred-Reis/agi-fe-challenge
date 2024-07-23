@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 import api from "@/app/server/api";
-import { env } from "@/env";
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
@@ -10,5 +9,5 @@ export async function GET(req: NextRequest) {
     token,
   });
 
-  return NextResponse.redirect("http://localhost:3000/welcome");
+  return NextResponse.redirect(`${process.env.NEXT_PUBLIC_APP_URL}/welcome`);
 }

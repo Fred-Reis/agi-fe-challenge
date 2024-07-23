@@ -1,14 +1,13 @@
 "use client";
 
+import { Suspense } from "react";
+
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 
 import logo from "@/assets/agidesk-logo.svg";
-import { Button, LanguagesDropdown } from "@/components";
-import { Google, Microsoft, Apple } from "@/assets/brands";
-import Link from "next/link";
 
-export default function SignUp() {
+function Page() {
   const searchParams = useSearchParams();
 
   const email = searchParams.get("email");
@@ -43,5 +42,13 @@ export default function SignUp() {
         </section>
       </aside>
     </main>
+  );
+}
+
+export default function Welcome() {
+  return (
+    <Suspense fallback={null}>
+      <Page />
+    </Suspense>
   );
 }
