@@ -1,8 +1,7 @@
-import { Arrow } from "@/assets/Arrow";
+import { Arrow } from "@/assets/arrow";
 import { Net } from "@/assets/net";
 
 export const LanguagesDropdown = () => {
-  // TODO implement dropdown
   return (
     <div className="flex items-center">
       <Net color="#F97316" />

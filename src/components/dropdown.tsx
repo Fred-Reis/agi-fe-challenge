@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Arrow } from "@/assets/Arrow";
+import { Arrow } from "@/assets/arrow";
 
 interface DropdownProps {
   handleSelect: (value: String) => void;

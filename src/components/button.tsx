@@ -1,4 +1,4 @@
-import { Arrow } from "@/assets/Arrow";
+import { Arrow } from "@/assets/arrow";
 
 interface Props {
   variant?: "filled" | "outlined" | "icon" | "smallIcon";

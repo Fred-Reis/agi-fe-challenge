@@ -1,7 +1,7 @@
-export { Microsoft } from "./Microsoft";
+export { Microsoft } from "./microsoft";
 export { Decathlon } from "./decathlon";
 export { Facebook } from "./facebook";
-export { TokStok } from "./tokstok";
+export { TokStok } from "./tokStok";
 export { Indigo } from "./indigo";
 export { Unimed } from "./unimed";
 export { Google } from "./google";

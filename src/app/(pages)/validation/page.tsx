@@ -4,11 +4,12 @@ import { Suspense } from "react";
 
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 
-import logo from "@/assets/agidesk-logo.svg";
 import { Button, LanguagesDropdown } from "@/components";
 import { Google, Microsoft, Apple } from "@/assets/brands";
-import Link from "next/link";
+
+import logo from "@/assets/agidesk-logo.svg";
 
 function Page() {
   const searchParams = useSearchParams();
