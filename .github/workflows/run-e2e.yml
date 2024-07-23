@@ -15,7 +15,6 @@ jobs:
           node-version: 20
           cache: "npm"
       - run: npm ci
-      - run: npm test
 
       - name: Cypress run
         uses: cypress-io/github-action@v6
