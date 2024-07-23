@@ -99,7 +99,7 @@ Nesse cadastro existem poucos requisitos para permitir o cadastro do usuário:
 
 <br/>
 
-> **🚨 Antes de executar o projeto é necessário que o [backend]((https://github.com/Fred-Reis/agi-be-challenge/?tab=readme)) do projeto esteja rodando!! 📣**
+> **🚨 Antes de executar o projeto é necessário que o [backend]((https://github.com/Fred-Reis/agi-be-challenge/?tab=readme)) esteja configurado e rodando!! 📣**
 
 <br/>
 
