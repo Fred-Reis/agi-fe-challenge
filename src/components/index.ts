@@ -1,7 +1,9 @@
 export { LanguagesDropdown } from "./languagesDropdown";
 export { StepProgressBar } from "./stepProgressBar";
+export { ColorPicker } from "./colorPicker";
 export { Testemonial } from "./testemonial";
 export { Dropdown } from "./dropdown";
+export { Skeleton } from "./skeleton";
 export { Button } from "./button";
 export { Input } from "./input";
 export { Chips } from "./chips";

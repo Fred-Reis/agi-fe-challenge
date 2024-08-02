@@ -1,11 +1,12 @@
+"use client";
+
 import { useRouter } from "next/navigation";
 
-import { Chips, StepProgressBar } from "@/components";
+import { Chips, StepProgressBar, ColorPicker } from "@/components";
 
 import { parseDepartmentsValues } from "@/app/utils/functions";
 import { COLORS } from "@/app/utils/supplies";
 
-import { Picker } from "@/assets/picker";
 import { Net } from "@/assets/net";
 
 import api from "@/app/server/api";
@@ -32,17 +33,19 @@ export const Step4 = ({
   const router = useRouter();
 
   async function handleSubmit() {
-    delete state.step;
-    const form = {
-      ...state,
-      department: parseDepartmentsValues(state.department),
-    };
+    // delete state.step;
+    // const form = {
+    //   ...state,
+    //   department: parseDepartmentsValues(state.department),
+    // };
 
-    const response = await api.post("/users", form);
+    await new Promise((resolve) => setTimeout(resolve, 5000));
 
-    if (response.status === 201) {
-      router.push(`/validation?email=${state.email}`);
-    }
+    // const response = await api.post("/users", form);
+
+    // if (response.status === 201) {
+    //   router.push(`/validation?email=${state.email}`);
+    // }
   }
 
   return (
@@ -91,10 +94,7 @@ export const Step4 = ({
         </ul>
       </section>
 
-      <p className="font-semibold mt-12 md:mt-6 text-primary flex items-center gap-2">
-        Personalize a cor
-        <Picker />
-      </p>
+      <ColorPicker />
 
       <footer className="mt-auto mb-8 2xl:mb-12 w-full">
         <StepProgressBar

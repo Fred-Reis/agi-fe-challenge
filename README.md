@@ -62,6 +62,8 @@ A proposta desse projeto era construir uma aplicação fullstack que permitisse 
 Caso queira acessar o repositório com o projeto backend acesse o link a seguir:  
  [📑 Repositório Backend](https://github.com/Fred-Reis/agi-be-challenge/?tab=readme)
 
+ https://agi-fe-challenge.vercel.app/
+
 <br/>
 
 # 🖥 Frontend
@@ -187,7 +189,8 @@ Algumas das funcionalidades que devem ser implementadas em breve
 - [ ] Implementar login social com Gmail e Outlook.
 - [ ] Hospedar os assets em um servidor CDN para reduzir o tamanho do bundle da aplicação
 - [ ] Implementar validações e exibição de erros
-- [ ] Fazer o deployda aplicação
+- [ ] Implementar Skeleton
+- [x] Fazer o deploy da aplicação
 
 <hr/>
 <br/>
